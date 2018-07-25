@@ -7,7 +7,6 @@ package ru.job4j.array;
  */
 public class FindLoop {
     /**
-     *
      * @param data array where we looking an element
      * @param el value of looking element
      * @return index of element if array contains it or -1 if it doesn't contain.
