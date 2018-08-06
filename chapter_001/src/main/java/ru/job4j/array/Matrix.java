@@ -1,0 +1,23 @@
+package ru.job4j.array;
+
+/**
+ * @author Denis Melnichenko (mailto:aspirant89@gmail.com)
+ * @version $Id$
+ * @since 0.1
+ */
+public class Matrix {
+
+    /**
+     * @param size value of columns and rows
+     * @return matrix with multiple rows on columns
+     */
+    public int[][] multiple(int size) {
+        int[][] table = new int[size][size];
+        for (int i = 0; i < table.length; i++) {
+            for (int j = 0; j < table.length; j++) {
+                table[i][j] = (i + 1) * (j + 1);
+            }
+        }
+        return table;
+    }
+}
